@@ -73,9 +73,9 @@ console.log(timeTaken, "seconds");
 
 - It allows us to talk about the runtime of an algorithm as the inputs grows.
 - An algorithms is O(f(n)) if the number of simple operations to be performed is eventually less than a constant times f(n), as n increases. (limit definition of a function)
-- f(n) could be linear ($f(n) = n$)
-- f(n) could be constant ($f(n) = k$)
-- f(n) could be quadratic ($f(n) = n^2$)
+- f(n) could be linear $$f(n) = n$$
+- f(n) could be constant $$f(n) = k$$
+- f(n) could be quadratic $$f(n) = n^2$$
 - f(n) could be a complicated mathematical function.
 
 ## Simplifying Big O (Shorthands)
@@ -83,9 +83,9 @@ console.log(timeTaken, "seconds");
 Rules while determining the time complexity of an algorithm:
 
 - Constants don't matter i.e.
-  $ O(2n) = O(Kn) = O(Kn + P) =  O(n) $
-  $ O(1000) = O(K) = O(1)$
-  $ O(Kn^2 + Mn + P ) = O(n^2)$
+  $$ O(2n) = O(Kn) = O(Kn + P) =  O(n) $$
+  $$ O(1000) = O(K) = O(1)$$
+  $$ O(Kn^2 + Mn + P ) = O(n^2)$$
   and so on
 - Arithmetic operations are constant times.
 - Variable assignments are constant times.
@@ -100,10 +100,10 @@ Rules while determining the time complexity of an algorithm:
 ### Rules of Space Complexity
 
 - Most primitives (booleans, numbers, undefined, null) are constant space.
-- Strings require $O(n)$ space where n is the length of the string.
-- Reference types are generally $O(n)$ where n is the length(for arrays) or the number of keys (for objects).
+- Strings require O(n) space where n is the length of the string.
+- Reference types are generally O(n) where n is the length(for arrays) or the number of keys (for objects).
 
-## Logarithmic Complexity $O(log n)$
+## Logarithmic Complexity O(log n)
 
 - Logarithmic time complexity is great.
 - Certain searching logarithms have log time complexity.
