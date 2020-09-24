@@ -30,5 +30,15 @@
 
 ### Example:
 
-- \_Write a function for finding longest unique sequence of characters in a string.
+- _Write a function for finding longest unique sequence of characters in a string._
 - _Write a function called maxSubArraySum which accepts an array of integers and a number called n. The function should calculate the maximum sum of n consecutive elements in the array._
+
+## Divide and Conquer Pattern
+
+- Divide the data set into smaller pieces and then repeat with the subset of the data.
+- Can decrease the time complexity tremendously.
+- Binary Search, QuickSort, MergeSort, etc are examples of divide and conquer.
+
+### Example:
+
+- _Given sorted array of integers, write a function called search that accepts a value and returns the index where the value passed to the function is located. If the value is not found, return -1._
